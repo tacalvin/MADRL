@@ -16,7 +16,7 @@ in `rllab/environment.yml` file if using `anaconda` distribution.
 
 The easiest way to install MADRL and its dependencies is to perform a recursive clone of this repository.
 ```bash
-git clone --recursive git@github.com:sisl/MADRL.git
+git clone --recursive https://github.com/tacalvin/MADRL/
 ```
 
 Then, add directories to `PYTHONPATH`
