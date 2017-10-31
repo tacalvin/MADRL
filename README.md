@@ -25,8 +25,10 @@ export PYTHONPATH=$(pwd):$(pwd)/rltools:$(pwd)/rllab:$PYTHONPATH
 ```
 
 Install the required dependencies. Good idea is to look into `rllab/environment.yml` file if using `anaconda` distribution.
+
 `conda env create -f rllab/enviroment.yml`
 (Note remove the mocojo-py line from `rllab/enviroment.yml` before creating the enviroment)
+
 `source activate rllab3`
 After that move into mocojo-py and run `python setup.py install`
 
