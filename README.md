@@ -19,7 +19,8 @@ The easiest way to install MADRL and its dependencies is to perform a recursive 
 git clone --recursive https://github.com/tacalvin/MADRL/
 ```
 
-Then, add directories to `PYTHONPATH`
+
+Then, add directories to `PYTHONPATH` from inside `MADRL/`
 ```bash
 export PYTHONPATH=$(pwd):$(pwd)/rltools:$(pwd)/rllab:$PYTHONPATH
 ```
